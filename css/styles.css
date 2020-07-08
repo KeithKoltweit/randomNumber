@@ -1,0 +1,32 @@
+header {
+    text-align: center;
+    color: Blue;
+}
+input {
+    margin: .5em;
+    border: hidden;
+    font-size: 20px;
+}
+#number {
+    background-color: white;
+    color: indigo;
+    text-align: center;
+}
+#button {
+    border-radius: 12px;
+    background-color: limegreen;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.grid-item {
+    border: 15px solid black;
+    border-radius: 12px;
+    margin: 10em auto 0 auto;
+    padding: 10px 0;
+    text-align: center;
+}
